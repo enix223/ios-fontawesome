@@ -57,7 +57,10 @@
             /* Font Awesome ver 4.30 */
             @"\uf236", @"\uf20d", @"\uf218", @"\uf217", @"\uf20e", @"\uf210", @"\uf219", @"\uf230", @"\uf211", @"\uf21e", @"\uf236", @"\uf212", @"\uf222", @"\uf227", @"\uf229", @"\uf22b", @"\uf22a", @"\uf23a", @"\uf223", @"\uf21c", @"\uf22c", @"\uf231", @"\uf213", @"\uf233", @"\uf21a", @"\uf214", @"\uf215", @"\uf216", @"\uf21d", @"\uf239", @"\uf238", @"\uf224", @"\uf225", @"\uf234", @"\uf21b", @"\uf235", @"\uf221", @"\uf226", @"\uf228", @"\uf237",
             /* Font Awesome ver 4.40 */
-            @"\uf26e", @"\uf270", @"\uf24e", @"\uf244", @"\uf240", @"\uf242", @"\uf243", @"\uf241", @"\uf27e", @"\uf274", @"\uf272", @"\uf271", @"\uf273", @"\uf24c", @"\uf24b", @"\uf268", @"\uf24d", @"\uf27a", @"\uf27b", @"\uf26d", @"\uf25e", @"\uf23e", @"\uf269", @"\uf280", @"\uf22d", @"\uf265", @"\uf260", @"\uf261", @"\uf258", @"\uf256", @"\uf25b", @"\uf25a", @"\uf255", @"\uf257", @"\uf259", @"\uf254", @"\uf253", @"\uf252", @"\uf250", @"\uf251", @"\uf27c", @"\uf246", @"\uf275", @"\uf26b", @"\uf279", @"\uf278", @"\uf276", @"\uf277", @"\uf245", @"\uf247", @"\uf248", @"\uf263", @"\uf264", @"\uf23d", @"\uf26a", @"\uf23c", @"\uf25d", @"\uf267", @"\uf249", @"\uf24a", @"\uf26c", @"\uf25c", @"\uf262", @"\uf27d", @"\uf266", @"\uf23b"];
+            @"\uf26e", @"\uf270", @"\uf24e", @"\uf244", @"\uf240", @"\uf242", @"\uf243", @"\uf241", @"\uf27e", @"\uf274", @"\uf272", @"\uf271", @"\uf273", @"\uf24c", @"\uf24b", @"\uf268", @"\uf24d", @"\uf27a", @"\uf27b", @"\uf26d", @"\uf25e", @"\uf23e", @"\uf269", @"\uf280", @"\uf22d", @"\uf265", @"\uf260", @"\uf261", @"\uf258", @"\uf256", @"\uf25b", @"\uf25a", @"\uf255", @"\uf257", @"\uf259", @"\uf254", @"\uf253", @"\uf252", @"\uf250", @"\uf251", @"\uf27c", @"\uf246", @"\uf275", @"\uf26b", @"\uf279", @"\uf278", @"\uf276", @"\uf277", @"\uf245", @"\uf247", @"\uf248", @"\uf263", @"\uf264", @"\uf23d", @"\uf26a", @"\uf23c", @"\uf25d", @"\uf267", @"\uf249", @"\uf24a", @"\uf26c", @"\uf25c", @"\uf262", @"\uf27d", @"\uf266", @"\uf23b",
+            /* Missing icons */
+            @"\uf244", @"\uf243", @"\uf242", @"\uf241", @"\uf240", @"\uf00d", @"\uf0e4", @"\uf044", @"\uf09e", @"\uf0e7", @"\uf013", @"\uf085", @"\uf0c0", @"\uf255", @"\uf256", @"\uf251", @"\uf252", @"\uf253", @"\uf03e", @"\uf0e3", @"\uf1cd", @"\uf064", @"\uf112", @"\uf10b", @"\uf0c9", @"\uf03e", @"\uf00d", @"\uf0c9", @"\uf0dd", @"\uf0de", @"\uf123", @"\uf123", @"\uf150", @"\uf191", @"\uf152", @"\uf151", @"\uf26c", @"\uf0dc", @"\uf071", @"\uf224", @"\uf15a", @"\uf157", @"\uf155", @"\uf153", @"\uf157", @"\uf158", @"\uf158", @"\uf156", @"\uf195", @"\uf159", @"\uf157", @"\uf0c1", @"\uf0c5", @"\uf0c4", @"\uf03b", @"\uf0ea", @"\uf0e2", @"\uf01e", @"\uf0c7", @"\uf127", @"\uf09a", @"\uf1d4", @"\uf23b", @"\uf1d4"
+        ];
 
     });
     
@@ -689,6 +692,72 @@
         tmp[@"fa-vimeo"]                = @(FAvimeo);
         tmp[@"fa-wikipedia-w"]          = @(FAwikipediaW);
         tmp[@"fa-y-combinator"]         = @(FAyCombinator);
+        
+        /* Missing icons */
+        tmp[@"fa-battery-0"]            = @(FABattery0);
+        tmp[@"fa-battery-1"]            = @(FABattery1);
+        tmp[@"fa-battery-2"]            = @(FABattery2);
+        tmp[@"fa-battery-3"]            = @(FABattery3);
+        tmp[@"fa-battery-4"]            = @(FABattery4);
+        tmp[@"fa-close"]                = @(FAClose);
+        tmp[@"fa-dashboard"]            = @(FADashboard);
+        tmp[@"fa-edit"]                 = @(FAEdit);
+        tmp[@"fa-feed"]                 = @(FAFeed);
+        tmp[@"fa-flash"]                = @(FAFlash);
+        tmp[@"fa-gear"]                 = @(FAGear);
+        tmp[@"fa-gears"]                = @(FAGears);
+        tmp[@"fa-group"]                = @(FAGroup);
+        tmp[@"fa-hand-grab-o"]          = @(FAHandGrabO);
+        tmp[@"fa-hand-stop-o"]          = @(FAHandStopO);
+        tmp[@"fa-hourglass-1"]          = @(FAHourglass1);
+        tmp[@"fa-hourglass-2"]          = @(FAHourglass2);
+        tmp[@"fa-hourglass-3"]          = @(FAHourglass3);
+        tmp[@"fa-image"]                = @(FAImage);
+        tmp[@"fa-legal"]                = @(FALegal);
+        tmp[@"fa-life-buoy"]            = @(FALifeBuoy);
+        tmp[@"fa-mail-forward"]         = @(FAMailForward);
+        tmp[@"fa-mail-reply"]           = @(FAMailReply);  //
+        tmp[@"fa-mobile-phone"]         = @(FAMobilePhone);
+        tmp[@"fa-navicon"]              = @(FANavicon);
+        tmp[@"fa-photo"]                = @(FAPhoto);
+        tmp[@"fa-remove"]               = @(FARemove);
+        tmp[@"fa-reorder"]              = @(FAReorder);
+        tmp[@"fa-sort-down"]            = @(FASortDown);
+        tmp[@"fa-sort-up"]              = @(FASortUp);
+        tmp[@"fa-star-half-empty"]      = @(FAStarHalfEmpty);
+        tmp[@"fa-star-half-full"]       = @(FAStarHalfFull);
+        tmp[@"fa-toggle-down"]          = @(FAToggleDown);
+        tmp[@"fa-toggle-left"]          = @(FAToggleLeft);
+        tmp[@"fa-toggle-right"]         = @(FAToggleRight);
+        tmp[@"fa-toggle-up"]            = @(FAToggleUp);
+        tmp[@"fa-tv"]                   = @(FATv);
+        tmp[@"fa-unsorted"]             = @(FAUnsorted);
+        tmp[@"fa-warning"]              = @(FAWarning);
+        tmp[@"fa-intersex"]             = @(FAIntersex);
+        tmp[@"fa-gear"]                 = @(FAGear);
+        tmp[@"fa-bitcoin"]              = @(FABitcoin);
+        tmp[@"fa-cny"]                  = @(FACny);
+        tmp[@"fa-dollar"]               = @(FADollar);
+        tmp[@"fa-euro"]                 = @(FAEuro);
+        tmp[@"fa-rmb"]                  = @(FARmb);
+        tmp[@"fa-rouble"]               = @(FARouble);
+        tmp[@"fa-ruble"]                = @(FARuble);
+        tmp[@"fa-rupee"]                = @(FARupee);
+        tmp[@"fa-turkish-lira"]         = @(FATurkishLira);
+        tmp[@"fa-won"]                  = @(FAWon);
+        tmp[@"fa-yen"]                  = @(FAYen);
+        tmp[@"fa-chain"]                = @(FAChain);
+        tmp[@"fa-copy"]                 = @(FACopy);
+        tmp[@"fa-cut"]                  = @(FACut);
+        tmp[@"fa-dedent"]               = @(FADedent);
+        tmp[@"fa-paste"]                = @(FAPaste);
+        tmp[@"fa-rotate-left"]          = @(FARotateLeft);
+        tmp[@"fa-rotate-right"]         = @(FARotateRight);
+        tmp[@"fa-save"]                 = @(FASave);
+        tmp[@"fa-unlink"]               = @(FAUnlink);
+        tmp[@"fa-facebook-f"]           = @(FAFacebookF);
+        tmp[@"fa-y-combinator-square"]  = @(FAYCombinatorSquare);
+        tmp[@"fa-yc-square"]            = @(FAYcSquare);
         
 		enumDictionary = tmp;
 	});
